@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url("asas.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#text-area{
+    margin-top: 50px;
+    width: 70%;
+    padding: 12px 20px;
+    border-radius: 29px;
+    border: solid plum 1px;
+    margin-bottom: 5px;
+    transition: 0.5s;
+    font-family: "Montserrat";
+    backdrop-filter: blur(55px);
+    background-color: rgba(0, 0, 0, 0);
+}
+#iban{
+    word-wrap: break-word;
+}
+#butn-send{
+    width: 20%;
+    padding: 12px 20px;
+    border-radius: 29px;
+    border: solid plum 1px;
+    background-color: plum;
+    color: white;
+    transition: 0.5s;
+    font-family: "Montserrat";
+}
+#butn-send:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#text-area:focus{
+    transform: scale(0.99);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    outline: 2px plum;
+}
+#answer{
+    margin-top: 50px;
+    width: 90%;
+    max-height: 40vh;
+    overflow-y: scroll;
+    background-color: plum;
+    padding: 12px;
+    border-radius: 15px;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+#basl{
+    font-family: "Montserrat";
+    border: 1px solid plum;
+    border-radius: 75px;
+    padding: 12px 20px;
+    width: 35%;
+    background-color: plum;
+    color: white;
+}
+#kelime_haznesi{
+    font-family: "Montserrat";
+    font-size: 15px;
+    width: 70%;
+    text-align: center;
+    display: flex;
+    backdrop-filter: blur(15px);
+    padding: 12px;
+    border-radius: 12px;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#kelime_haznesi:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#istaitsk{
+    font-family: "Montserrat";
+    font-size: 12px;
+    text-align: center;
+    background-color: plum;
+    padding: 12px;
+    border-radius: 12px;
+    width: 30%;
+    margin: 5px;
+    transition: 0.5s;
+    color: white;
+}
+#istaitsk:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#ana {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: space-evenly;
+}
+#eee {
+    font-size: 22px;
+}
+#hahaha{
+    font-family: "Montserrat";
+    border-bottom: 2px #ddd solid;
+    width: 30%;
+}
+#ilet{
+    font-family: "Montserrat";
+}
